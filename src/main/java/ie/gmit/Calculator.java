@@ -1,5 +1,9 @@
 package ie.gmit;
 
 public class Calculator {
-    // This method will add two numbers1
+    public int subtract(int firstNumber, int secondNumber)
+    {
+        int total = firstNumber - secondNumber;
+        return total;
+    }
 }
